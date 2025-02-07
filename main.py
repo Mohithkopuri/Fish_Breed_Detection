@@ -1,7 +1,5 @@
 import os
 os.system('pip install tensorflow')
-import tensorflow as tf
-
 import streamlit as st
 import tensorflow as tf
 from PIL import Image
