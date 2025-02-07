@@ -1,5 +1,7 @@
-import os
-os.system('pip install tensorflow')
+which python
+which pip
+python -c "import tensorflow as tf; print(tf.__version__)"
+
 import streamlit as st
 import tensorflow as tf
 from PIL import Image
