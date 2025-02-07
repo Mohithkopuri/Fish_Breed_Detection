@@ -1,12 +1,9 @@
-which python
-which pip
-python -c "import tensorflow as tf; print(tf.__version__)"
-
 import streamlit as st
 import tensorflow as tf
 from PIL import Image
 import numpy as np
 import warnings
+
 
 # Suppress warnings for a cleaner output
 warnings.filterwarnings('ignore')
