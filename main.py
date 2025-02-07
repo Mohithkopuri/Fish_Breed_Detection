@@ -1,3 +1,13 @@
+import os
+import subprocess
+
+try:
+    import tensorflow as tf
+except ModuleNotFoundError:
+    print("TensorFlow not found. Installing now...")
+    subprocess.run(["pip", "install", "tensorflow"], check=True)
+    import tensorflow as tf
+
 import streamlit as st
 import tensorflow as tf
 from PIL import Image
