@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore')
 
 # Load trained custom CNN model
 try:
-    model = tf.keras.models.load_model("E:\\mohith\\d deta\\aqualife Detection\\venv\\model.h5")  # Path to custom CNN model
+    model = tf.keras.models.load_model("model.h5")  # Path to custom CNN model
 except FileNotFoundError:
     st.error("Trained model not found. Ensure the model file is in the specified directory.")
     st.stop()
